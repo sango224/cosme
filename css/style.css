@@ -1,0 +1,234 @@
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  color: black;
+
+  background-color: #fcfcfa;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+section,
+footer {
+  padding: 0 10vw;
+}
+
+h1,
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+}
+
+.logo {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+header,
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul,
+.footer-nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+header nav ul li,
+.footer-nav ul li {
+  font-family: "Zen Old Mincho", serif;
+  text-transform: uppercase;
+}
+
+.fv-msg h1 {
+  text-transform: uppercase;
+}
+
+.fv-msg p {
+  width: 40%;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.fv {
+  height: 90vh;
+  background-size: cover;
+}
+
+.fv-msg {
+  margin-top: 15%;
+}
+
+.consept {
+  text-align: center;
+}
+
+strong {
+  background: linear-gradient(180deg, #fcfcfa 0%, #fcfcfa 70%, #e2c3c2 100%);
+}
+
+.consept {
+  margin-top: 80px;
+}
+
+.consept p {
+  margin-bottom: 60px;
+}
+
+.consept .contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.list-consept {
+  width: 80%;
+  max-width: 550px;
+}
+
+.list-consept li {
+  display: flex;
+  gap: 3rem;
+  margin: 20px 0;
+
+  width: 80%;
+  max-width: 550px;
+}
+
+.list-consept li:not(:first-child) {
+  margin-top: 30px;
+}
+
+.consept .contents .check {
+  width: 5%;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.consept .contents .check img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.consept .contents .cosme-img {
+  width: 400px;
+  box-shadow: 15px 15px #e2c3c2;
+}
+
+.message {
+  height: 50vh;
+  background-size: cover;
+  margin-top: 90px;
+}
+
+.message h1 {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.message p {
+  width: 60%;
+  max-width: 630px;
+
+  margin-top: 30px;
+}
+
+.collections {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.collections .contents {
+  width: 60%;
+  max-width: 550px;
+  height: 350px;
+
+  background-color: #efefef;
+  padding: 6rem;
+}
+
+.collections-img {
+  width: 50%;
+  max-width: 600px;
+}
+
+.collections-img img {
+  width: 100%;
+  margin-left: -3rem;
+}
+
+.collections p {
+  margin-top: 0.5rem;
+}
+
+.collections h1 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 80px;
+  border: 1px solid black;
+
+  margin-top: 3rem;
+}
+
+.btn:hover {
+  background-color: #e2c3c2;
+}
+
+.btn:hover span {
+  color: #fcfcfa;
+}
+
+.instagram {
+  margin-top: 80px;
+}
+
+.instagram h1 {
+  text-align: center;
+}
+
+.list-pic {
+  display: flex;
+  justify-content: center;
+
+  width: 80%;
+
+  margin: 30px auto 0;
+}
+
+.list-pic img {
+  width: 100%;
+}
+
+footer {
+  background-color: #efefef;
+  margin-top: 80px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  padding-bottom: 3rem;
+}
